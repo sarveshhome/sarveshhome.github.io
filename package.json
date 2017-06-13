@@ -4,7 +4,8 @@
   "description": "expressjs REST API mongoose SPA",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  server.js
+    "start": "server.js"
   },
   "keywords": [
     "SPA",
