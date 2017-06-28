@@ -2,9 +2,8 @@
   "name": "expressrestapimongoosespa",
   "version": "1.0.0",
   "description": "expressjs REST API mongoose SPA",
-  "main": "server.js",
+  "main": "server.js",  
   "scripts": {
-  server.js
     "start": "server.js"
   },
   "keywords": [
