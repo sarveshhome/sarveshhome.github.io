@@ -21,6 +21,8 @@ require('./app/routes.js')(app);
 // app.get('*', function(req, res) {
 //         res.sendfile('./public/index.html'); 
 // });
-app.listen(port,function(){
-    console.log('app is running on http://localhost:'+port);
-})
+
+var port = process.env.PORT;
+app.listen(port);
+
+console.log("Server is running at http://localhost:" + port);
